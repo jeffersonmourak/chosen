@@ -261,7 +261,7 @@ class @Chosen extends AbstractChosen
   set_tab_index: (el) ->
     if @form_field.tabIndex
       ti = @form_field.tabIndex
-      @form_field.tabIndex = -1
+      @form_field.tabIndex = ti
       @search_field.tabIndex = ti
 
   set_label_behavior: ->
